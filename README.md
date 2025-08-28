@@ -52,21 +52,7 @@ This project follows a structured approach, starting with Exploratory Data Analy
 | **Data Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=flat&logo=matplotlib&logoColor=white) `Matplotlib`, ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=seaborn&logoColor=white) `Seaborn`                       |
 | **Machine Learning** | ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931A?style=flat&logo=scikit-learn&logoColor=white) `Scikit-learn`, ![XGBoost](https://img.shields.io/badge/XGBoost-0066CC?style=flat&logo=xgboost&logoColor=white) `XGBoost`, `LightGBM` |
 
----
 
-## 📊 Model Performance
-
-The models were evaluated on the validation set using **Root Mean Squared Error (RMSE)** and **R-squared (R²)**.
-
-| Model                  | RMSE              | R²     |
-| :--------------------- | :---------------- | :----- |
-| **XGBoost Ensemble** | **125,033,581.82** | **0.6693** |
-| LightGBM               | 158,593,202.51    | 0.4679 |
-| Random Forest          | 129,439,709.30    | 0.6455 |
-
-The **XGBoost 5-seed ensemble** demonstrated the best performance, achieving the lowest RMSE and the highest R², making it the final choice for generating the submission file.
-
----
 
 ## 🚀 How to Run
 
